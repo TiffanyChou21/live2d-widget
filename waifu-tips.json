@@ -24,40 +24,40 @@
         "selector": "#waifu-tool .fa-times",
         "text": ["到了要说再见的时候了吗？", "呜呜 QAQ 后会有期……", "不要抛弃我呀……", "我们，还能再见面吗……", "哼，你会后悔的！"]
     }, {
-        "selector": ".menu-item-home",
+        "selector": ".menus_item fa-home",
         "text": ["点击前往首页，想回到上一页可以使用浏览器的后退功能哦。", "点它就可以回到首页啦！", "回首页看看吧。"]
     }, {
         "selector": ".menu-item-about",
         "text": ["你想知道我家主人是谁吗？", "这里有一些关于我家主人的秘密哦，要不要看看呢？", "发现主人出没地点！"]
     }, {
-        "selector": ".menu-item-tags",
+        "selector": ".menus_item fa-tags",
         "text": ["点击就可以看文章的标签啦！", "点击来查看所有标签哦。", "快看看这里都有什么呢！"]
     }, {
-        "selector": ".menu-item-categories",
+        "selector": ".menus_item fa-folder-open",
         "text": ["文章都分类好啦～", "点击来查看文章分类哦。", "快看看这里都有什么呢！"]
     }, {
-        "selector": ".menu-item-archives",
+        "selector": ".menus_item fa-archive",
         "text": ["翻页比较麻烦吗，那就来看看文章归档吧。", "文章目录都整理在这里啦！", "快看看这里都有什么呢？"]
     }, {
-        "selector": ".menu-item-friends",
+        "selector": ".menus_item fa-link",
         "text": ["这是我的朋友们哦ヾ(◍°∇°◍)ﾉﾞ", "要去大佬们的家看看吗？", "要去拜访一下我的朋友们吗？"]
     }, {
-        "selector": ".menu-item-search",
+        "selector": "#search_button",
         "text": ["找不到想看的内容？搜索看看吧！", "在找什么东西呢，需要帮忙吗？"]
     }, {
-        "selector": ".site-author",
+        "selector": ".card-author",
         "text": ["我家主人好看吗？", "这是我家主人(*´∇｀*)"]
     }, {
-        "selector": ".site-state",
-        "text": ["这是文章的统计信息～", "要不要点进去看看？"]
+        "selector": ".card-webinfo",
+        "text": ["这是站点的统计信息～"]
     }, {
-        "selector": ".feed-link a",
+        "selector": ".fa-rss i",
         "text": ["这里可以使用 RSS 订阅呢！", "利用 feed 订阅器，就能快速知道博客有没有更新了呢。"]
     }, {
-        "selector": ".cc-opacity, .post-copyright-author",
+        "selector": ".post-copyright",
         "text": ["要记得规范转载哦。", "所有文章均采用 CC BY-NC-SA 4.0 许可协议～", "转载前要先注意下文章的版权协议呢。"]
     }, {
-        "selector": ".links-of-author",
+        "selector": ".fa-github",
         "text": ["这里是主人的常驻地址哦。", "这里有主人的联系方式！"]
     }, {
         "selector": "#qrcode",
@@ -66,7 +66,7 @@
         "selector": ".fancybox img, img.medium-zoom-image",
         "text": ["点击图片可以放大呢！"]
     }, {
-        "selector": ".highlight, .gist",
+        "selector": ".code-area-wrap, .gist",
         "text": ["代码可以直接点击复制哟。", "GitHub！我是新手！", "PHP 是最好的语言！"]
     }, {
         "selector": ".container a[href^='http'], .nav-link .nav-text",
@@ -90,7 +90,7 @@
         "selector": "a[itemprop='discussionUrl']",
         "text": ["要去看看评论吗？"]
     }, {
-        "selector": ".back-to-top",
+        "selector": "#go-up",
         "text": ["点它就可以回到顶部啦！", "又回到最初的起点～", "要回到开始的地方么？"]
     }, {
         "selector": ".reward-container",
@@ -105,7 +105,7 @@
         "selector": "#bitcoin",
         "text": ["这是我的比特币账号！"]
     }, {
-        "selector": "#needsharebutton-postbottom .btn",
+        "selector": ".post_share",
         "text": ["好东西要让更多人知道才行哦。", "觉得文章有帮助的话，可以分享给更多需要的朋友呢。"]
     }, {
         "selector": ".need-share-button_weibo",
@@ -126,10 +126,10 @@
         "selector": ".need-share-button_facebook",
         "text": ["emmm…FB 好像也是不存在的东西？"]
     }, {
-        "selector": ".post-nav-item a[rel='next']",
+        "selector": ".next-post",
         "text": ["来看看下一篇文章吧。", "点它可以看下一篇文章哦！", "要翻到下一篇文章吗？"]
     }, {
-        "selector": ".post-nav-item a[rel='prev']",
+        "selector": ".prev-post",
         "text": ["来看看上一篇文章吧。", "点它可以看上一篇文章哦！", "要翻到上一篇文章吗？"]
     }, {
         "selector": ".extend.next",
@@ -186,7 +186,7 @@
         "text": "今天是<span>国际妇女节</span>！"
     }, {
         "date": "03/12",
-        "text": "今天是<span>植树节</span>，要保护环境呀！"
+        "text": ["今天是<span>植树节</span>，要保护环境呀！", "今天支付宝种树了么(ー`´ー)"]
     }, {
         "date": "04/01",
         "text": "悄悄告诉你一个秘密～<span>今天是愚人节，不要被骗了哦～</span>"
@@ -203,7 +203,7 @@
         "date": "09/10",
         "text": "<span>教师节</span>，在学校要给老师问声好呀～"
     }, {
-        "date": "10/01",
+        "date": "10/01-10/07",
         "text": "<span>国庆节</span>到了，为祖国母亲庆生！"
     }, {
         "date": "11/05-11/12",
