@@ -152,7 +152,7 @@ function loadWidget(waifuPath, apiPath) {
         if (modelId == null) {
             // 首次访问加载 指定模型 的 指定材质
             var modelId = 1, // 模型 ID
-                modelTexturesId = 53; // 材质 ID
+                modelTexturesId = 83; // 材质 ID83 84 81
         }
         loadModel(modelId, modelTexturesId);
         fetch(waifuPath)
